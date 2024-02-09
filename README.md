@@ -1,6 +1,6 @@
 # MovieMatrix
 
-This movie app is an enhanced version of MovieMaster, where I will incorporate more sophisticated techniques to realize more complex features. I will also note down all the processes for better internalization and for future projects.
+This movie app is an enhanced version of MovieMaster, where I will incorporate more sophisticated techniques (Redux, AI, AWS) to realize more complex features. I will also note down all the processes for better internalization and for future projects.
 
 
 ### Initial Setup
