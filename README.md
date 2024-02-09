@@ -23,6 +23,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 ```
 
 
+### ESlint setup and configuration for highest possible code standard 
+10. `control + C` to stop the server.
+11. `npm install -g eslint`
+12. `eslint --init`
+13. 
+
 
 
 <br />
