@@ -1,9 +1,17 @@
+# MovieMatrix
+
+This movie app is an enhanced version of MovieMaster, where I will incorporate more sophisticated techniques to realize more complex features.
+
+
+
+
+<br />
+
+--------------------------
 
 # MovieMaster
 
-### Deployed site: https://moviemasterweb.netlify.app
-
-### This movie app is created using Create React App and covers fundamental concepts, including:
+This movie app is created using Create React App and covers fundamental concepts, including:
 
 - Virtual DOM vs. Real DOM
 - Functional components vs. Class components
@@ -16,6 +24,7 @@
 - Implementation of environment variables for improved security
 - Continuous Integration/Continuous Deployment (CI/CD) pipelines.
 
+Deployed site: https://moviemasterweb.netlify.app
 
 
 <br />
