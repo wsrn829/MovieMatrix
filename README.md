@@ -2,10 +2,16 @@
 
 This movie app is an enhanced version of MovieMaster, where I will incorporate more sophisticated techniques to realize more complex features. I will also note down all the processes for better internalization and for future projects.
 
-1. Download node.js from official website and install (if you haven't already);
-2. In project terminal, run: `npx create-react-app ./`;
-3. `npm install` will install all the dependencies listed in package.json and generate node_modules folder.
-4. 
+
+### Setup
+1. Download node.js from the official website and install it (if you haven't already);
+2. In the project terminal, run: `npx create-react-app ./`;
+3. `npm install` will install all the dependencies listed in package.json and generate the 'node_modules' folder.
+### File structure
+4. The crucial part of a package.json file is the dependencies list, which specifies the libraries the project relies on. 
+5. The most important directory in a React app is src, which usually contains index.js and a components folder. 
+6. The index.js file connects the React virtual DOM to the actual DOM defined in index.html. 
+7. The components folder contains reusable code that is rendered by App.jsx to create a Single Page Application (SPA).
 
 
 
