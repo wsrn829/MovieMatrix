@@ -30,7 +30,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [2, 250],
     'object-curly-newline': 0,
-    'react/jsx-file-name-extension': 0,
     'react/jsx-one-expression-per-line': 0,
     'jsx-ally/click-events-have-key-events': 0,
     'jsx-ally/no-static-element-interactions': 0,
