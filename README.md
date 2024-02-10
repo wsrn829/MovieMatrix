@@ -4,13 +4,13 @@ This movie app is an enhanced version of MovieMaster, where I will incorporate m
 
 
 ### Initial Setup
-1. Download node.js from the official website and install it (if you haven't already);
-2. In the project terminal, run: `npx create-react-app ./`;
+1. Download node.js from the official website and install it (if you haven't already).
+2. In the project terminal, run: `npx create-react-app ./`.
 3. `npm install` will install all the dependencies listed in package.json and generate the 'node_modules' folder.
-### File structure
-4. The most important part of a package.json file is the dependencies list, which specifies the libraries the project relies on. 
+### File Structure
+4. The most important part of a package.json file is the dependencies list, specifying the libraries the project relies on. 
 5. The most important directory in a React app is src, which usually contains index.js and a components folder. 
-6. The index.js file connects the React virtual DOM to the actual DOM defined in index.html included in public directory. 
+6. The index.js file connects the React virtual DOM with the actual DOM defined in index.html in public directory. 
 7. The components folder contains reusable code that is rendered by App.jsx to create a Single Page Application (SPA).
 8. `rafce` -- A shortcut to create reactArrowFunctionExportComponent (ES7 extension is needed).
 9. How to hook ReactDOM with actual DOM?
@@ -23,11 +23,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 ```
 
 
-### ESlint setup and configuration for highest possible code standard 
+### ESlint Setup and Configuration
 10. `control + C` to stop the server.
 11. `npm install -g eslint`
 12. `eslint --init`
-13. 
+
+
 
 
 
