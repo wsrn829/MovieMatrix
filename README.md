@@ -32,7 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 ### Libraries
 13. Find a balance between using lots of libraries and writing lots of code.
 14. Preparation is key.
-15. 
+15. Every time we change .env, we should restart the app.
 
 
 <br />
