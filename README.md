@@ -47,27 +47,35 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 ### Redux Toolkit Implementation !!! (RTK Query makes API calls so much easier)
 1. Redux - central state management tool for React applications (especially helpful in large-scale applications).
 2. In src/index.js, i.e., where we are hooking virtual DOM with actual DOM:
-   `import { Provider } from 'react-redux';`
-   Provider is similar to BrowserRouter, used to wrap our entire App.
+   ```
+   import { Provider } from 'react-redux';
+   ```
+   Provider is similar to BrowserRouter, used to wrap our entire App.\
    Provider includes store variable, so we need it to wrap the entire App to make store accessible to every single component.
-3. Store is created in src/app/store.js using configureStore; this store.js file is the heart of Redux Toolkit, wihch is the central place where the app's state is managed. 
-4. In src/index.js:
-`import store from './app/store;`
-5. In store.js:
-`import { configureStore } from '@reduxjs/toolkit';
-
-export default configureStore({
-    reducers: {
-        //the state you wanna manage is specified here
-    }
-})`
-6. In services folder, TMDB.js is for making API calls:
-`import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
-
-export const tmdbApi = createApi({
-    reducerPath: 'tmdbApi',
-    baseQuery: fetchBaseQuery({ baseUrl: '' }),
-})`
+4. Store is created in src/app/store.js using configureStore; this store.js file is the heart of Redux Toolkit, wihch is the central place where the app's state is managed. 
+5. In src/index.js:
+   ```
+   import store from './app/store;
+   ```
+6. In store.js:
+   ```
+   import { configureStore } from '@reduxjs/toolkit';
+   
+   export default configureStore({
+       reducers: {
+           //the state you wanna manage is specified here
+       }
+   })`
+    ```
+7. In services folder, TMDB.js is for making API calls:
+   ```
+   import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+   
+   export const tmdbApi = createApi({
+       reducerPath: 'tmdbApi',
+       baseQuery: fetchBaseQuery({ baseUrl: '' }),
+   })
+   ```
    
 
 
