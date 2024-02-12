@@ -23,8 +23,6 @@ import App from './components/App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 ```
-
-
 ### ESlint Setup and Configuration
 10. `control + C` to stop the server.
 11. `npm install -g eslint`
@@ -39,8 +37,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
 ### Styling
 16. Some competitors: Bootstrap, Tailwind CSS, Material UI, Ant Design, Semantic UI, Foundation, Chakra UI, Bulma
-
-<br />
+17. 
 
 --------------------------------------
 
@@ -84,7 +81,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
 --------------------------
 
-### Alan AI Implementation !!! (Combines AI and Natural Language Processing/NLP)
+### Alan AI Implementation !!! (Artificial Intelligence/AI + Natural Language Processing/NLP)
 
 
 <br />
