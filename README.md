@@ -191,8 +191,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 14. What is your takeaway from the data structure and algorithm study? 
 
 15. Explain binary search.
-
-16. MERN stack.
+   - Binary search is a search algorithm that finds the position of a target value within a sorted array. It works by repeatedly dividing the search interval in half. If the value of the target element is less than the middle element of the array, the search continues in the lower half of the array. If the value of the target element is greater than the middle element of the array, the search continues in the upper half of the array. This process is repeated until the value of the target element is found or the search interval is empty.
+   - Binary search is a very efficient algorithm with a time complexity of O(log n), where n is the number of elements in the array. This means that the time it takes to find the target element is proportional to the logarithm of the number of elements in the array, which is much faster than linear search, which has a time complexity of O(n).
+   - Binary search is commonly used in computer science and is the basis for many other search algorithms, such as interpolation search and exponential search. It is also used in many applications, such as searching for a word in a dictionary or finding the location of a record in a database.
+17. MERN stack.
     - MERN stack: MongoDB, Express, React, Node
     - MEAN stack: MongoDB, Express, Angular, Node
     - MEVN stack: MongoDB, Express, Vue, Node
