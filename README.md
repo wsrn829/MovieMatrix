@@ -96,6 +96,31 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
 --------------------------
 
+### Concepts I Was Asked During Interviews
+
+1. What is virtual DOM?
+
+2. Why do we use virtual DOM?
+
+3. What is the React component lifecycle?
+
+4. What is Redux?
+
+5. What is Redux thunk?
+
+6. What are the similarities and differences between React useContext hook and Redux? (and props)
+
+7. How do you feel about deployment?
+
+8. What is your takeaway from the data structure and algorithm study? 
+
+9. Explain binary search.
+
+
+<br />
+
+--------------------------
+
 
 # MovieMaster
 
