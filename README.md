@@ -68,7 +68,7 @@ export const tmdbApi = createApi({
     reducerPath: 'tmdbApi',
     baseQuery: fetchBaseQuery({ baseUrl: '' }),
 })`
-   
+7. Extract baseUrl from TMDB url. (baseUrl + endpoints = actual url)
 
 
 
