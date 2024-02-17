@@ -79,13 +79,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 1. To use Redux/Redux Toolkit, the first step is to use Provider coming from react-redux to wrap our entire application.
 2. Next, we create a store to give it to the Provider. That way, the Provider will provide the entire application with the entire  store.
 3. How do we create a store? Redux toolkit made it extremely easy: 
-   a. import configureStore function 
-   b. call it 
-   c. pass the reducer to it.
+   - import configureStore function 
+   - call the function
+   - pass the reducer to it.
 4. Reducer is actually a service, which we create by using reduxjs/toolkit/query/ and then specify: 
-   a. reducer name
-   b. baseQuery
-   c. endpoints
+   - reducer name
+   - baseQuery
+   - endpoints
 5. Then Redux Toolkit will automatically create useXXXQuery and you can export it.
 6. Then you can use this useXXXQuery everywhere across the app to make API calls.
 
