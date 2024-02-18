@@ -110,18 +110,19 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
 ### Concepts I Was Asked During Interviews
 
-1. What is React virtual DOM (Document Object Model) and why do we use it?
+**1. What is React virtual DOM (Document Object Model) and why do we use it?**
 - An abstraction of the real/actual/browser DOM to improve the performance of web apps by reducing the number of direct DOM manipulations.
 - User interaction with web app ==> the app's state change ==> UI needs to be updated to reflect these changes. 
-  - Traditional: update by direct DOM manipulation (inefficient).
-  - Virtual DOM (a standard feature of many modern web development frameworks):
-   - solves this problem by creating a "lightweight representation of the DOM in memory".
-   - When the application's state changes, the Virtual DOM is updated instead of the real DOM.
-   - The Virtual DOM then compares the updated Virtual DOM with the previous version to determine the minimal set of changes needed to update the real DOM.
-   - These changes are then applied to the real DOM, resulting in a more efficient update process.
+  - Traditional:
+      - Update by direct DOM manipulation (inefficient).
+  - Virtual DOM:
+      - Solves this problem by creating a "lightweight representation of the DOM in memory".
+      - When the application's state changes, the Virtual DOM is updated instead of the real DOM.
+      - The Virtual DOM then compares the updated Virtual DOM with the previous version to determine the minimal set of changes needed to update the real DOM.
+      - These changes are then applied to the real DOM, resulting in a more efficient update process.
 - Because virtual DOM makes DOM updates faster by only updating the necessary parts instead of the entire DOM by comparing old virtual DOM and new virtual DOM created in memory as an additional step thus improving the overall performance and maintainability of the web app.
   
-2. Underlying Mechanisms
+**2. Underlying Mechanisms**
 - Virtual DOM and Real DOM:
    - The virtual DOM is a lightweight copy of the real DOM (Document Object Model) that exists in memory.
    - When changes are made to the web app, the virtual DOM is updated first.
@@ -135,7 +136,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
    - By reducing the number of updates to the real DOM and minimizing the amount of work needed to identify changes, the virtual DOM can improve the overall performance of the web app.
    - Additionally, the virtual DOM can make the codebase more maintainable by providing a clear separation between the application logic and the rendering logic.
 
-3. What is the React component lifecycle and the associated methods called in each phase?
+**3. What is the React component lifecycle and the associated methods called in each phase?**
 - Mounting: occurs when the component is first created and added to the DOM. 
    - constructor(): called before the component is mounted to initialize the component's state and bind event handlers.
    - static getDerivedStateFromProps(): called before rendering when new props are received to update the component's state based on the new props.
@@ -159,7 +160,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 - However, while React Hooks provide a way to achieve lifecycle behavior in functional components, they are not a direct replacement for class components.
 - There are some differences in how hooks work compared to class components, and it's important to understand these differences when using hooks in your code.
 
-4. What is Redux?
+**4. What is Redux?**
 - Central state management tool for JavaScript applications.
 - Often used in large-scale applications where the state needs to be shared across multiple components and managed in a centralized location.
 - Key Concepts:
@@ -188,12 +189,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 - Redux is often used in conjunction with React, where the state in the Redux store is connected to React components using the connect() function provided by the react-redux library. This allows components to access the state in the store and re-render when the state changes.
 - Overall, Redux provides a powerful and flexible way to manage the state in JavaScript applications, making it easier to reason about and maintain the state of the App.
 
-5. What is Redux Thunk?
-    - A middleware for Redux that allows you to write action creators that return functions instead of plain objects.
-    - These functions can perform asynchronous operations, such as fetching data from an API, and then dispatching actions based on the result of those operations.
-    - In Redux, action creators are functions that create and return action objects. 
+**5. What is Redux Thunk?**
+- A middleware for Redux that allows you to write action creators that return functions instead of plain objects.
+- These functions can perform asynchronous operations, such as fetching data from an API, and then dispatching actions based on the result of those operations.
+- In Redux, action creators are functions that create and return action objects. 
 
-6. What are the similarities and differences between React useContext hook and Redux?
+**6. What are the similarities and differences between React useContext hook and Redux?**
 - Similarities:
    - State Management: Both provide mechanisms for managing state in a centralized location, which helps in avoiding prop drilling and makes it easier to share state across multiple components.
    - Global State: Both allow you to create a global state that can be accessed and updated from any component in your application.
@@ -204,11 +205,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
    - Performance: Redux can offer better performance optimizations, especially when combined with other Redux-related libraries like react-redux and redux-thunk. useContext may have performance issues when used with deeply nested components or when the state changes frequently.
    - Learning Curve: Redux has a steeper learning curve due to its more complex nature and the need to understand concepts like actions, reducers, and the store. useContext is easier to learn and use for beginners.
 
-7. How do you feel about deployment? 
+**7. How do you feel about deployment?**
 
-8. What is your takeaway from the data structure and algorithm study? 
+**8. What is your takeaway from the data structure and algorithm study?** 
 
-9. Explain binary search.
+**9. Explain binary search.**
 - Binary search is a way to find a specific value in a sorted list. Here's how it works:
    - Start with the middle value of the list.
    - If the value you're looking for is less than the middle value, look in the first half of the list.
@@ -218,10 +219,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 - Time complexity: O(log n).
 - It's commonly used in computer science and other fields because it's fast and reliable.
 - Use Cases: searching for a word in a dictionary or finding the location of a record in a database.
-8. MERN stack.
-    - MERN stack: MongoDB, Express, React, Node
-    - MEAN stack: MongoDB, Express, Angular, Node
-    - MEVN stack: MongoDB, Express, Vue, Node
+  
+**8. MERN stack.**
+- MERN stack: MongoDB, Express, React, Node
+- MEAN stack: MongoDB, Express, Angular, Node
+- MEVN stack: MongoDB, Express, Vue, Node
 
 <br />
 
