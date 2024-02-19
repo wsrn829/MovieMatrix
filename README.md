@@ -108,6 +108,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 
 --------------------------
 
+### React vs. React Native
+- React utilizes HTML, CSS, and JavaScript to create interactive user interfaces.
+- React Native utilizes APIs and native UI components to build mobile Apps.
+- React uses a virtual DOM to render browser code.
+- React Native uses Native API to render components for mobile Apps.
+
+--------------------------
+
 ### Concepts I Was Asked During Interviews
 
 **1. What is React virtual DOM (Document Object Model) and why do we use it?**
